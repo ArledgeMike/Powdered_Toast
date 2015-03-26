@@ -1,6 +1,6 @@
 Powdered-Toast
 ===========
-<img src ="https://raw.githubusercontent.com/ArledgeMike/Meat-Grinder/master/images/meat-grinder.png" />
+<img src ="https://raw.githubusercontent.com/ArledgeMike/Powdered_Toast/master/images/powdered_toast.jpg" />
 
 
 <h2>JS Toast Notifications</h2> <p>Version 1.0 - marble rye</p>
