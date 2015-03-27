@@ -48,12 +48,12 @@ Powdered_Toast.prototype = {
   prefixed_event:function(element, type, action, callback) {
     var pfx = ["webkit", "moz", "MS", "o", ""];
     for (var p = 0; p < pfx.length; p++) {
-		  if (!pfx[p]) type = type.toLowerCase();
-		  if(action == "add"){
+      if (!pfx[p]) type = type.toLowerCase();
+      if(action == "add"){
         element.addEventListener(pfx[p]+type, callback, false);
       }else{
         element.addEventListener(pfx[p]+type, callback, false);
       }
-	  }
+    }
   }
 }
